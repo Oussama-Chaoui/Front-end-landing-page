@@ -24,19 +24,14 @@ I undertook the project because it is an Assessment test to get a job as a front
 
 ## Screenshots
 ![Example screenshot](./Ehye-preview.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _complete_
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Adding a dark mode may be better looking for this website
 
 
 ## Contact
