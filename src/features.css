@@ -1,0 +1,244 @@
+@import "./variables.css";
+
+@media screen and (min-width: 1200px) {
+  .features {
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .features-container {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+  }
+
+  .features-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .features-img {
+    display: flex;
+    border-radius: 8px;
+    height: 650px;
+    width: 100%;
+    padding-top: 2rem;
+    background: rgba(90, 113, 150, 0.1);
+  }
+
+  .features-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+  }
+
+  .features-subtitle {
+    margin: 0.5rem 0 0 0;
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  .features-title {
+    margin: 0;
+    font-size: var(--h3-f-size);
+    color: var(--first-color);
+  }
+
+  .features-desc {
+    margin: 0;
+    padding-right: 2rem;
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .features {
+    max-width: 950px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .features-container {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+  }
+
+  .features-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .features-img {
+    display: flex;
+    border-radius: 8px;
+    height: 530px;
+    width: 100%;
+    padding-top: 2rem;
+    background: rgba(90, 113, 150, 0.1);
+  }
+
+  .features-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+
+  .features-subtitle {
+    margin: 0.5rem 0 0 0;
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  .features-title {
+    margin: 0;
+    font-size: var(--h3-f-size);
+    color: var(--first-color);
+  }
+
+  .features-desc {
+    margin: 0;
+    padding-right: 2rem;
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .features {
+    max-width: 710px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .features-container {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+
+  .features-item {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+
+  .second-item {
+    flex-direction: row-reverse;
+  }
+
+  .features-img {
+    display: flex;
+    border-radius: 8px;
+    height: 400px;
+    width: 100%;
+    padding-top: 2rem;
+    background: rgba(90, 113, 150, 0.1);
+  }
+
+  .features-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+
+  .features-subtitle {
+    margin: 0.5rem 0 0 0;
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  .features-title {
+    margin: 0;
+    font-size: var(--h2-sm-f-size);
+    color: var(--first-color);
+  }
+
+  .features-desc {
+    margin: 0;
+    padding-right: 2rem;
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features {
+    max-width: 500px;
+    padding: 0 2rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  .features-container {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .features-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features-img {
+    display: flex;
+    border-radius: 8px;
+    height: 500px;
+    width: 100%;
+    padding-top: 2rem;
+    background: rgba(90, 113, 150, 0.1);
+  }
+
+  .features-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .features-subtitle {
+    margin: 0.5rem 0 0 0;
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  .features-title {
+    margin: 0;
+    font-size: var(--h2-sm-f-size);
+    color: var(--first-color);
+  }
+
+  .features-desc {
+    margin: 0;
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+    text-align: center;
+  }
+}

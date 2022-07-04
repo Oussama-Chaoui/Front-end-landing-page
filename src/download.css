@@ -1,0 +1,712 @@
+@import "./variables.css";
+
+@media screen and (min-width: 1200px) {
+  .download {
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+    margin-top: 8rem;
+    border-top: 1px solid var(--line-color);
+    border-bottom: 1px solid var(--line-color);
+    margin-bottom: 5rem;
+  }
+
+  .download-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    text-align: center;
+  }
+
+  .download-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .download-title {
+    font-size: var(--download-title-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-desc {
+    font-size: var(--bg-desc-f-size);
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-devices {
+    display: flex;
+  }
+
+  .download-device {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 345px;
+    background: var(--unhovered-device-color);
+  }
+
+  .download-icon {
+    font-size: 42px;
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-device-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    align-items: center;
+  }
+
+  .download-device-name {
+    font-size: var(--devices-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-device-desc {
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--sm-btn-f-size);
+    width: 255px;
+    height: 48px;
+    border: 2px solid var(--hovered-device-color);
+    transition: none;
+  }
+
+  .download-btn:hover {
+    border: 2px solid var(--hovered-device-color);
+  }
+
+  .download-device:hover {
+    background: var(--hovered-device-color);
+  }
+
+  .download-device:hover > .download-icon,
+  .download-device:hover .download-device-name,
+  .download-device:hover .download-device-desc {
+    color: white;
+  }
+
+  .download-device:hover > .download-btn {
+    color: var(--first-color);
+    background: white;
+  }
+
+  .newsletter {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .newsletter-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-title {
+    font-size: var(--h3-f-size);
+    color: var(--first-color);
+    font-weight: 700;
+  }
+
+  .newsletter-desc {
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+  }
+
+  .newsletter-subscribe {
+    display: flex;
+    width: 500px;
+  }
+
+  .newsletter-input {
+    border-radius: 5px;
+    box-shadow: 0px -10px 35px 0px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e5eaf4b0;
+    outline: none;
+    padding-left: 1.5rem;
+    width: 100%;
+  }
+
+  .newsletter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    font-size: var(--sm-btn-f-size);
+    font-weight: 600;
+    color: white;
+    background: var(--first-color);
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .download {
+    max-width: 950px;
+    margin: auto;
+    width: 100%;
+    margin-top: 8rem;
+    border-top: 1px solid var(--line-color);
+    border-bottom: 1px solid var(--line-color);
+    margin-bottom: 5rem;
+  }
+
+  .download-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    text-align: center;
+  }
+
+  .download-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .download-title {
+    font-size: var(--download-title-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-desc {
+    font-size: var(--bg-desc-f-size);
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-devices {
+    display: flex;
+  }
+
+  .download-device {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 345px;
+    background: var(--unhovered-device-color);
+  }
+
+  .download-icon {
+    font-size: 35px;
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-device-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    align-items: center;
+  }
+
+  .download-device-name {
+    font-size: var(--devices-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-device-desc {
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--sm-btn-f-size);
+    width: 220px;
+    height: 48px;
+    border: 2px solid var(--hovered-device-color);
+    transition: none;
+  }
+
+  .download-btn:hover {
+    border: 2px solid var(--hovered-device-color);
+  }
+
+  .download-device:hover {
+    background: var(--hovered-device-color);
+  }
+
+  .download-device:hover > .download-icon,
+  .download-device:hover .download-device-name,
+  .download-device:hover .download-device-desc {
+    color: white;
+  }
+
+  .download-device:hover > .download-btn {
+    color: var(--first-color);
+    background: white;
+  }
+
+  .newsletter {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .newsletter-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-title {
+    font-size: var(--h3-f-size);
+    color: var(--first-color);
+    font-weight: 700;
+  }
+
+  .newsletter-desc {
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+  }
+
+  .newsletter-subscribe {
+    display: flex;
+    width: 400px;
+  }
+
+  .newsletter-input {
+    border-radius: 5px;
+    box-shadow: 0px -10px 35px 0px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e5eaf4b0;
+    outline: none;
+    padding-left: 1.5rem;
+    width: 100%;
+    font-size: var(--input-f-size);
+  }
+
+  .newsletter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    font-size: var(--sm-btn-f-size);
+    font-weight: 600;
+    color: white;
+    background: var(--first-color);
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .download {
+    max-width: 730px;
+    margin: auto;
+    width: 100%;
+    margin-top: 5rem;
+    border-top: 1px solid var(--line-color);
+    border-bottom: 1px solid var(--line-color);
+    margin-bottom: 5rem;
+  }
+
+  .download-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    text-align: center;
+  }
+
+  .download-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .download-title {
+    font-size: var(--download-title-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-desc {
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-devices {
+    display: flex;
+  }
+
+  .download-device {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 243px;
+    height: 324px;
+    background: var(--unhovered-device-color);
+  }
+
+  .download-icon {
+    font-size: 35px;
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-device-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    align-items: center;
+  }
+
+  .download-device-name {
+    font-size: var(--devices-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-device-desc {
+    font-size: var(--download-sm-desc-f-size);
+    color: var(--second-color);
+    padding: 0 3rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--sm-btn-f-size);
+    width: 170 px;
+    height: 48px;
+    border: 2px solid var(--hovered-device-color);
+    transition: none;
+  }
+
+  .download-btn:hover {
+    border: 2px solid var(--hovered-device-color);
+  }
+
+  .download-device:hover {
+    background: var(--hovered-device-color);
+  }
+
+  .download-device:hover > .download-icon,
+  .download-device:hover .download-device-name,
+  .download-device:hover .download-device-desc {
+    color: white;
+  }
+
+  .download-device:hover > .download-btn {
+    color: var(--first-color);
+    background: white;
+  }
+
+  .newsletter {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .newsletter-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-title {
+    font-size: var(--h2-sm-f-size);
+    color: var(--first-color);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .newsletter-desc {
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+  }
+
+  .newsletter-subscribe {
+    display: flex;
+    width: 500px;
+  }
+
+  .newsletter-input {
+    border-radius: 5px;
+    box-shadow: 0px -10px 35px 0px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e5eaf4b0;
+    outline: none;
+    padding-left: 1.5rem;
+    width: 100%;
+    font-size: var(--input-f-size);
+  }
+
+  .newsletter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    font-size: var(--sm-btn-f-size);
+    font-weight: 600;
+    color: white;
+    background: var(--first-color);
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .download {
+    max-width: 320px;
+    margin: auto;
+    width: 100%;
+    margin-top: 3rem;
+    border-top: 1px solid var(--line-color);
+    border-bottom: 1px solid var(--line-color);
+    margin-bottom: 2rem;
+  }
+
+  .download-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: center;
+  }
+
+  .download-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .download-title {
+    font-size: var(--download-title-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-desc {
+    font-size: var(--bg-desc-f-size);
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-devices {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .download-device {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 254px;
+    background: var(--unhovered-device-color);
+  }
+
+  .download-icon {
+    padding-top: 1rem;
+    font-size: 35px;
+    color: var(--second-color);
+    margin: 0;
+  }
+
+  .download-device-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    align-items: center;
+  }
+
+  .download-device-name {
+    font-size: var(--devices-f-size);
+    color: var(--first-color);
+    margin: 0;
+  }
+
+  .download-device-desc {
+    font-size: var(--download-sm-desc-f-size);
+    color: var(--second-color);
+    padding: 0 1rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--bg-btn-f-size);
+    width: 170 px;
+    height: 48px;
+    border: 2px solid var(--hovered-device-color);
+    transition: none;
+  }
+
+  .download-btn:hover {
+    border: 2px solid var(--hovered-device-color);
+  }
+
+  .download-device:hover {
+    background: var(--hovered-device-color);
+  }
+
+  .download-device:hover > .download-icon,
+  .download-device:hover .download-device-name,
+  .download-device:hover .download-device-desc {
+    color: white;
+  }
+
+  .download-device:hover > .download-btn {
+    color: var(--first-color);
+    background: white;
+  }
+
+  .newsletter {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .newsletter-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-title {
+    font-size: var(--h2-sm-f-size);
+    color: var(--first-color);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .newsletter-desc {
+    text-align: center;
+    font-size: var(--sm-desc-f-size);
+    color: var(--second-color);
+  }
+
+  .newsletter-subscribe {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+  }
+
+  .newsletter-input {
+    border-radius: 5px;
+    box-shadow: 0px -10px 35px 0px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e5eaf4b0;
+    outline: none;
+    padding-left: 1.5rem;
+    width: 264px;
+    height: 40px;
+    margin: auto;
+    font-size: var(--input-f-size);
+  }
+
+  .newsletter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 40px;
+    font-size: var(--sm-btn-f-size);
+    font-weight: 600;
+    color: white;
+    background: var(--first-color);
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+  }
+}

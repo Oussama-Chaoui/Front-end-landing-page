@@ -1,0 +1,612 @@
+@import "./variables.css";
+
+@media screen and (min-width: 1200px) {
+  .testimonial {
+    max-width: 1170px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    height: 470px;
+    position: relative;
+  }
+
+  .testimonial-carousel {
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-item {
+    display: flex;
+  }
+
+  .testimonial-item-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    height: 100%;
+  }
+
+  .testimonial-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
+
+  .owl-stage-outer,
+  .owl-stage,
+  .owl-item,
+  .carousel-item {
+    height: 100%;
+  }
+
+  .testimonial-img {
+    width: auto !important ;
+    padding-bottom: 10px;
+    height: 400px;
+    z-index: 1;
+  }
+
+  .testimonial-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 3rem 0 0;
+    color: white;
+    row-gap: 2.5rem;
+    z-index: 1;
+  }
+
+  .testimonial-name {
+    font-size: var(--name-f-size);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .testimonial-job {
+    font-size: var(--job-f-size);
+    font-weight: 300;
+  }
+
+  .testimonial-review {
+    font-size: var(--review-f-size);
+    font-weight: 500;
+  }
+
+  .testimonial-base {
+    position: absolute;
+    height: 378px;
+    top: 0;
+    width: 100%;
+    background: var(--first-color);
+    z-index: -1 !important;
+    border-radius: 12px;
+  }
+
+  /* Carousel styling */
+  .owl-prev > img {
+    transform: rotate(180deg);
+  }
+
+  .owl-prev,
+  .owl-next {
+    width: 64px;
+    height: 64px;
+    background: white !important;
+    opacity: 0.7;
+    transition: opacity 150ms ease-in-out;
+    box-shadow: 0 28px 32px 0 rgb(0 0 0 / 6%);
+    border-radius: 8px;
+  }
+
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 1;
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 342px;
+    left: 400px;
+    display: flex;
+    column-gap: 2rem;
+    width: min-content;
+  }
+
+  .owl-dots {
+    display: flex;
+    column-gap: 10px;
+    z-index: 100;
+    position: absolute;
+    top: 114px;
+    right: 43px;
+  }
+
+  .owl-dot span {
+    background-color: #707070;
+    opacity: 0.3;
+    border-radius: 50%;
+    display: block;
+    width: 8px;
+    height: 8px;
+  }
+
+  .owl-dot.active span,
+  .owl-dot:hover span {
+    background-color: white;
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .testimonial {
+    max-width: 950px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    height: 470px;
+    position: relative;
+  }
+
+  .testimonial-carousel {
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-item {
+    display: flex;
+  }
+
+  .testimonial-item-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    height: 100%;
+  }
+
+  .testimonial-img-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+  }
+
+  .owl-stage-outer,
+  .owl-stage,
+  .owl-item,
+  .carousel-item {
+    height: 100%;
+  }
+
+  .testimonial-img {
+    width: auto !important ;
+    padding-bottom: 10px;
+    height: 400px;
+    z-index: 1;
+  }
+
+  .testimonial-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 5rem 0 0;
+    color: white;
+    row-gap: 2.5rem;
+    z-index: 1;
+  }
+
+  .testimonial-name {
+    font-size: var(--name-f-size);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .testimonial-job {
+    font-size: var(--job-f-size);
+    font-weight: 300;
+  }
+
+  .testimonial-review {
+    font-size: var(--review-f-size);
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .testimonial-base {
+    position: absolute;
+    height: 378px;
+    top: 0;
+    width: 100%;
+    background: var(--first-color);
+    z-index: -1 !important;
+    border-radius: 12px;
+  }
+
+  /* Carousel styling */
+  .owl-prev > img {
+    transform: rotate(180deg);
+  }
+
+  .owl-prev,
+  .owl-next {
+    width: 64px;
+    height: 64px;
+    background: white !important;
+    opacity: 0.7;
+    transition: opacity 150ms ease-in-out;
+    box-shadow: 0 28px 32px 0 rgb(0 0 0 / 6%);
+    border-radius: 8px;
+  }
+
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 1;
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 342px;
+    left: 400px;
+    display: flex;
+    column-gap: 2rem;
+    width: min-content;
+  }
+
+  .owl-dots {
+    display: flex;
+    column-gap: 10px;
+    z-index: 100;
+    position: absolute;
+    top: 114px;
+    right: 43px;
+  }
+
+  .owl-dot span {
+    background-color: #707070;
+    opacity: 0.3;
+    border-radius: 50%;
+    display: block;
+    width: 8px;
+    height: 8px;
+  }
+
+  .owl-dot.active span,
+  .owl-dot:hover span {
+    background-color: white;
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .testimonial {
+    max-width: 768px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    height: 470px;
+    position: relative;
+  }
+
+  .testimonial-carousel {
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-item {
+    display: flex;
+  }
+
+  .testimonial-item-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    height: 100%;
+  }
+
+  .testimonial-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 1.3rem;
+  }
+
+  .owl-stage-outer,
+  .owl-stage,
+  .owl-item,
+  .carousel-item {
+    height: 100%;
+  }
+
+  .testimonial-img {
+    width: auto !important ;
+    padding-bottom: 10px;
+    height: 344px;
+    z-index: 1;
+  }
+
+  .testimonial-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 1rem 0 0;
+    color: white;
+    row-gap: 2.5rem;
+    z-index: 1;
+  }
+
+  .testimonial-name {
+    font-size: var(--name-f-size);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .testimonial-job {
+    font-size: var(--job-f-size);
+    font-weight: 300;
+  }
+
+  .testimonial-review {
+    font-size: var(--review-f-size);
+    font-weight: 500;
+    line-height: 35px;
+  }
+
+  /*------------------ Carousel styling ---------------------*/
+  .owl-prev > img {
+    transform: rotate(180deg);
+  }
+
+  /*----------indicators---------*/
+  .owl-prev,
+  .owl-next {
+    width: 64px;
+    height: 64px;
+    background: white !important;
+    opacity: 0.7;
+    transition: opacity 150ms ease-in-out;
+    box-shadow: 0 28px 32px 0 rgb(0 0 0 / 6%);
+    border-radius: 8px;
+  }
+
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 1;
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 342px;
+    left: 289px;
+    display: flex;
+    column-gap: 2rem;
+    width: min-content;
+  }
+
+  /*------------dots--------*/
+  .owl-dots {
+    display: flex;
+    column-gap: 10px;
+    z-index: 100;
+    position: absolute;
+    top: 111px;
+    right: 13px;
+  }
+
+  .owl-dot span {
+    background-color: #707070;
+    opacity: 0.3;
+    border-radius: 50%;
+    display: block;
+    width: 8px;
+    height: 8px;
+  }
+
+  .owl-dot.active span,
+  .owl-dot:hover span {
+    background-color: white;
+    opacity: 1;
+  }
+
+  /* ----------------fixing the problem of the moving indicators when resizing every time-------------- */
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+  /*make other items invisible*/
+  .owl-item {
+    opacity: 0;
+    transition: opacity 200ms ease-out;
+  }
+
+  .owl-item.active {
+    opacity: 1;
+  }
+  /*scale up the base so is seems like it's taking the whole space*/
+  .testimonial-base {
+    position: absolute;
+    height: 378px;
+    top: 0;
+    width: 300%;
+    background: var(--first-color);
+    z-index: -1 !important;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .testimonial {
+    max-width: 320px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    height: 803px;
+    position: relative;
+  }
+
+  .testimonial-carousel {
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-item {
+    display: flex;
+  }
+
+  .testimonial-item-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    height: 100%;
+  }
+
+  .testimonial-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .owl-stage-outer,
+  .owl-stage,
+  .owl-item,
+  .carousel-item {
+    height: 100%;
+  }
+
+  .testimonial-img {
+    width: auto !important ;
+    padding-bottom: 10px;
+    height: 344px;
+    z-index: 1;
+  }
+
+  .testimonial-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    row-gap: 2.5rem;
+    z-index: 1;
+  }
+
+  .testimonial-name {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--name-f-size);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .testimonial-job {
+    font-size: var(--job-f-size);
+    font-weight: 300;
+  }
+
+  .testimonial-review {
+    font-size: var(--review-f-size);
+    font-weight: 500;
+    line-height: 35px;
+  }
+  /*------------------ Carousel styling ---------------------*/
+  .owl-prev > img {
+    transform: rotate(180deg);
+  }
+
+  /*----------indicators---------*/
+  .owl-prev,
+  .owl-next {
+    width: 64px;
+    height: 64px;
+    background: white !important;
+    opacity: 0.7;
+    transition: opacity 150ms ease-in-out;
+    box-shadow: 0 28px 32px 0 rgb(0 0 0 / 6%);
+    border-radius: 8px;
+  }
+
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 1;
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 710px;
+    left: 72px;
+    display: flex;
+    column-gap: 2rem;
+    width: min-content;
+  }
+
+  /*------------dots--------*/
+  .owl-dots {
+    display: flex;
+    column-gap: 10px;
+    z-index: 100;
+    position: absolute;
+    bottom: 141px;
+    right: 136px;
+  }
+
+  .owl-dot span {
+    background-color: #707070;
+    opacity: 0.3;
+    border-radius: 50%;
+    display: block;
+    width: 8px;
+    height: 8px;
+  }
+
+  .owl-dot.active span,
+  .owl-dot:hover span {
+    background-color: white;
+    opacity: 1;
+  }
+
+  /* ----------------fixing the problem of the moving indicators when resizing every time-------------- */
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+  /*make other items invisible*/
+  .owl-item {
+    opacity: 0;
+    transition: opacity 200ms ease-out;
+  }
+
+  .owl-item.active {
+    opacity: 1;
+  }
+  /*scale up the base so is seems like it's taking the whole space*/
+  .testimonial-base {
+    position: absolute;
+    height: 725px;
+    bottom: 0;
+    width: 300%;
+    background: var(--first-color);
+    z-index: -1 !important;
+    border-radius: 12px;
+  }
+}

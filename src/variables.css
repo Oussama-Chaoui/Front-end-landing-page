@@ -1,0 +1,159 @@
+:root {
+  /* colors */
+
+  --first-color: #183b56;
+  --second-color: #5a7184;
+  --benifits-border-color: #b3bac51a;
+  --link-color: #1565d8;
+  --switch-color: #faad13;
+  --line-color: #d8d8d8;
+  --hovered-device-color: #36b37e;
+  --unhovered-device-color: #36b37e1a;
+}
+
+/* variables for 1200px and above */
+@media screen and (min-width: 1200px) {
+  :root {
+    /* font sizes */
+    --nav-link-f-size: 16px;
+    --nav-sub-links-f-size: 15px;
+    --subtitle-f-size: 14px;
+    --h1-f-size: 56px;
+    --h2-f-size: 36px;
+    --h3-f-size: 24px;
+
+    --bg-btn-f-size: 18px;
+    --sm-btn-f-size: 16px;
+
+    --bg-desc-f-size: 18px;
+    --sm-desc-f-size: 16px;
+
+    --name-f-size: 22px;
+    --job-f-size: 18px;
+    --review-f-size: 28px;
+
+    --download-title-f-size: 40px;
+    --devices-f-size: 28px;
+
+    --footer-title-f-size: 18px;
+    --footer-element-f-size: 16px;
+    --footer-socials-f-size: 14px;
+  }
+  /* fonts */
+}
+
+/* variables for resolution between 992px and 1199px*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  :root {
+    /* font sizes */
+    --nav-link-f-size: 14px;
+    --nav-sub-links-f-size: 13px;
+    --h1-f-size: 35px;
+    --h2-f-size: 29px;
+    --h3-f-size: 18px;
+
+    --bg-btn-f-size: 14px;
+    --sm-btn-f-size: 12px;
+
+    --subtitle-f-size: 12px;
+    --bg-desc-f-size: 16px;
+    --sm-desc-f-size: 14px;
+
+    --name-f-size: 19px;
+    --job-f-size: 15px;
+    --review-f-size: 22px;
+    --input-f-size: 14px;
+
+    --download-title-f-size: 33px;
+    --devices-f-size: 28px;
+
+    --footer-title-f-size: 16px;
+    --footer-element-f-size: 14px;
+    --footer-socials-f-size: 12px;
+  }
+  /* fonts */
+}
+
+/* variables for resolution between 768px and 1000px*/
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  :root {
+    /* font sizes */
+    --nav-link-f-size: 16px;
+    --nav-sub-links-f-size: 15px;
+    --h1-f-size: 48px;
+    --h2-f-size: 36px;
+    --h2-sm-f-size: 22px;
+    --h3-f-size: 16px;
+    --pricing-name-f-size: 20px;
+
+    --bg-btn-f-size: 18px;
+    --sm-btn-f-size: 16px;
+
+    --subtitle-f-size: 14px;
+    --bg-desc-f-size: 18px;
+    --sm-desc-f-size: 16px;
+    --pricing-desc-f-size: 13px;
+
+    --name-f-size: 20px;
+    --job-f-size: 18px;
+    --review-f-size: 22px;
+    --input-f-size: 16px;
+
+    --download-title-f-size: 32px;
+    --download-sm-desc-f-size: 14px;
+    --devices-f-size: 22px;
+
+    --footer-title-f-size: 18px;
+    --footer-element-f-size: 16px;
+    --footer-socials-f-size: 12px;
+  }
+  /* fonts */
+}
+
+/* variables for resolution below 767px */
+@media screen and (max-width: 767px) {
+  :root {
+    /* font sizes */
+    --nav-link-f-size: 14px;
+    --nav-sub-links-f-size: 13px;
+    --h1-f-size: 32px;
+    --h2-f-size: 28px;
+    --h2-sm-f-size: 16px;
+    --h3-f-size: 18px;
+    --pricing-name-f-size: 22px;
+    --price-f-size: 18px;
+
+    --bg-btn-f-size: 16px;
+    --sm-btn-f-size: 14px;
+
+    --subtitle-f-size: 14px;
+    --bg-desc-f-size: 16px;
+    --sm-desc-f-size: 14px;
+    --pricing-desc-f-size: 14px;
+    --price-desc-f-size: 12px;
+
+    --name-f-size: 20px;
+    --job-f-size: 14px;
+    --review-f-size: 20px;
+    --input-f-size: 14px;
+
+    --download-title-f-size: 28px;
+    --download-sm-desc-f-size: 14px;
+    --devices-f-size: 22px;
+
+    --footer-title-f-size: 16px;
+    --footer-element-f-size: 14px;
+    --footer-socials-f-size: 12px;
+  }
+
+  /* fonts */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}

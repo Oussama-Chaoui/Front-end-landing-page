@@ -1,0 +1,586 @@
+@import "./variables.css";
+
+@media screen and (min-width: 1200px) {
+  .integration {
+    max-width: 1190px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .integration-container {
+    margin: 8rem 0 14rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .integration-center {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  .integration-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .integration-title {
+    font-size: var(--h2-f-size);
+    color: var(--first-color);
+    text-align: center;
+    margin: 0;
+  }
+
+  .integration-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3rem;
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .integration-left {
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-right {
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-icon {
+    padding: 18px;
+  }
+  .integration-icon-container {
+    position: absolute;
+    display: flex;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 25px 5px rgba(0, 0, 0, 0.07);
+    background: white;
+  }
+
+  /* positioning of icons */
+
+  /* left Side */
+
+  /* trello */
+  .integration-left > .integration-icon-container:nth-child(1) {
+    top: -30px;
+  }
+
+  /* shopify */
+  .integration-left > .integration-icon-container:nth-child(2) {
+    bottom: 88px;
+    left: 126px;
+  }
+
+  /* analytics */
+  .integration-left > .integration-icon-container:nth-child(3) {
+    top: 118px;
+    left: 156px;
+    height: 60px;
+  }
+
+  /* digialoceaon */
+  .integration-left > .integration-icon-container:nth-child(4) {
+    top: -12px;
+    left: 221px;
+  }
+
+  /* slack */
+  .integration-left > .integration-icon-container:nth-child(5) {
+    bottom: 88px;
+    left: 328px;
+  }
+
+  /* Right Side */
+
+  /* dropbox */
+  .integration-right > .integration-icon-container:nth-child(1) {
+    bottom: 75px;
+    right: 286px;
+  }
+  /* asana */
+  .integration-right > .integration-icon-container:nth-child(2) {
+    top: 80px;
+  }
+  /* jira */
+  .integration-right > .integration-icon-container:nth-child(3) {
+    bottom: 52px;
+    left: 80px;
+    height: 60px;
+  }
+  /* github */
+  .integration-right > .integration-icon-container:nth-child(4) {
+    top: -8px;
+    left: 126px;
+  }
+  /* drive */
+  .integration-right > .integration-icon-container:nth-child(5) {
+    bottom: 114px;
+    left: 190px;
+    height: 60px;
+  }
+  /* notion */
+  .integration-right > .integration-icon-container:nth-child(6) {
+    top: 90px;
+    left: 238px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .integration {
+    max-width: 950px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .integration-container {
+    margin: 8rem 0 14rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .integration-center {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  .integration-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .integration-title {
+    font-size: var(--h2-f-size);
+    color: var(--first-color);
+    text-align: center;
+    margin: 0;
+  }
+
+  .integration-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3rem;
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .integration-left {
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-right {
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-icon {
+    height: 40px;
+    padding: 6px;
+    margin: auto;
+  }
+  .integration-icon-container {
+    position: absolute;
+    display: flex;
+    height: 54px;
+    width: 54px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 25px 5px rgba(0, 0, 0, 0.07);
+    background: white;
+  }
+
+  /* positioning of icons */
+  /* left Side */
+
+  /* trello */
+  .integration-left > .integration-icon-container:nth-child(1) {
+    top: -30px;
+  }
+
+  /* shopify */
+  .integration-left > .integration-icon-container:nth-child(2) {
+    bottom: 88px;
+    left: 90px;
+  }
+
+  /* analytics */
+  .integration-left > .integration-icon-container:nth-child(3) {
+    top: 118px;
+    left: 110px;
+    height: 44px;
+    width: 44px;
+  }
+
+  /* digialoceaon */
+  .integration-left > .integration-icon-container:nth-child(4) {
+    top: -12px;
+    left: 160px;
+  }
+
+  /* slack */
+  .integration-left > .integration-icon-container:nth-child(5) {
+    bottom: 88px;
+    left: 250px;
+  }
+
+  /* Right Side */
+
+  /* dropbox */
+  .integration-right > .integration-icon-container:nth-child(1) {
+    bottom: 75px;
+    right: 240px;
+  }
+  /* asana */
+  .integration-right > .integration-icon-container:nth-child(2) {
+    top: 80px;
+    left: -5px;
+  }
+  /* jira */
+  .integration-right > .integration-icon-container:nth-child(3) {
+    bottom: 52px;
+    left: 60px;
+    height: 44px;
+    width: 44px;
+  }
+  /* github */
+  .integration-right > .integration-icon-container:nth-child(4) {
+    top: -8px;
+    left: 105px;
+  }
+  /* drive */
+  .integration-right > .integration-icon-container:nth-child(5) {
+    bottom: 114px;
+    left: 160px;
+    height: 44px;
+    width: 44px;
+  }
+  /* notion */
+  .integration-right > .integration-icon-container:nth-child(6) {
+    top: 90px;
+    left: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .integration {
+    max-width: 710px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .integration-container {
+    margin: 5rem 0 14rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .integration-center {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  .integration-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .integration-title {
+    font-size: var(--h2-sm-f-size);
+    color: var(--first-color);
+    text-align: center;
+    margin: 0;
+  }
+
+  .integration-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3rem;
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .integration-left {
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-right {
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-icon {
+    height: 36px;
+    padding: 6px;
+    margin: auto;
+  }
+  .integration-icon-container {
+    position: absolute;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 25px 5px rgba(0, 0, 0, 0.07);
+    background: white;
+  }
+
+  /* positioning of icons */
+  /* left Side */
+
+  /* trello */
+  .integration-left > .integration-icon-container:nth-child(1) {
+    top: -30px;
+  }
+
+  /* shopify */
+  .integration-left > .integration-icon-container:nth-child(2) {
+    bottom: 70px;
+    left: 67px;
+  }
+
+  /* analytics */
+  .integration-left > .integration-icon-container:nth-child(3) {
+    top: 71px;
+    left: 93px;
+    height: 38px;
+    width: 38px;
+  }
+
+  /* digialoceaon */
+  .integration-left > .integration-icon-container:nth-child(4) {
+    top: -13px;
+    left: 136px;
+  }
+
+  /* slack */
+  .integration-left > .integration-icon-container:nth-child(5) {
+    bottom: 76px;
+    left: 204px;
+  }
+
+  /* Right Side */
+
+  /* dropbox */
+  .integration-right > .integration-icon-container:nth-child(1) {
+    bottom: 75px;
+    right: 176px;
+  }
+  /* asana */
+  .integration-right > .integration-icon-container:nth-child(2) {
+    top: 54px;
+    left: -16px;
+  }
+  /* jira */
+  .integration-right > .integration-icon-container:nth-child(3) {
+    bottom: 44px;
+    left: 45px;
+    height: 38px;
+    width: 38px;
+  }
+  /* github */
+  .integration-right > .integration-icon-container:nth-child(4) {
+    top: -2px;
+    left: 80px;
+  }
+  /* drive */
+  .integration-right > .integration-icon-container:nth-child(5) {
+    bottom: 94px;
+    left: 136px;
+    height: 38px;
+    width: 38px;
+  }
+  /* notion */
+  .integration-right > .integration-icon-container:nth-child(6) {
+    top: 90px;
+    left: 156px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .integration {
+    max-width: 500px;
+    padding: 0 1.5rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  .integration-container {
+    margin: 5rem 0 14rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .integration-center {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.5rem;
+  }
+
+  .integration-subtitle {
+    font-size: var(--subtitle-f-size);
+    color: var(--second-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .integration-title {
+    font-size: var(--h2-f-size);
+    color: var(--first-color);
+    text-align: center;
+    margin: 0;
+  }
+
+  .integration-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3rem;
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .integration-left {
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-right {
+    
+    flex: 1;
+    position: relative;
+  }
+
+  .integration-icon {
+    height: 23px;
+    padding: 2px;
+    margin: auto;
+  }
+  .integration-icon-container {
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 25px 5px rgba(0, 0, 0, 0.07);
+    background: white;
+  }
+
+  /* positioning of icons */
+  /* left Side */
+
+  /* trello */
+  .integration-left > .integration-icon-container:nth-child(1) {
+    top: 232px;
+    left: -161px;
+  }
+
+  /* shopify */
+  .integration-left > .integration-icon-container:nth-child(2) {
+    bottom: -367px;
+    left: -144px;
+  }
+
+  /* analytics */
+  .integration-left > .integration-icon-container:nth-child(3) {
+    top: 284px;
+    left: -100px;
+    height: 27px;
+    width: 27px;
+  }
+
+  /* digialoceaon */
+  .integration-left > .integration-icon-container:nth-child(4) {
+    top: 236px;
+    left: -60px;
+  }
+
+  /* slack */
+  .integration-left > .integration-icon-container:nth-child(5) {
+    bottom: -358px;
+    left: -45px;
+  }
+
+  /* Right Side */
+
+  /* dropbox */
+  .integration-right > .integration-icon-container:nth-child(1) {
+    bottom: -88px;
+    right: -42px;
+  }
+  /* asana */
+  .integration-right > .integration-icon-container:nth-child(2) {
+    top: 121px;
+    left: 19px;
+  }
+  /* jira */
+  .integration-right > .integration-icon-container:nth-child(3) {
+    bottom: -100px;
+    left: 67px;
+    height: 27px;
+    width: 27px;
+  }
+  /* github */
+  .integration-right > .integration-icon-container:nth-child(4) {
+    top: 137px;
+    left: 71px;
+  }
+  /* drive */
+  .integration-right > .integration-icon-container:nth-child(5) {
+    bottom: -69px;
+    left: 120px;
+    height: 27px;
+    width: 27px;
+  }
+  /* notion */
+  .integration-right > .integration-icon-container:nth-child(6) {
+    top: 144px;
+    left: 141px;
+  }
+}
