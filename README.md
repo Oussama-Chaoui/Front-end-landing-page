@@ -1,5 +1,5 @@
 # Ehya - Front-end Assessment Test
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://oussama-chaoui.github.io/Front-end-landing-page/dist/index.html). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
