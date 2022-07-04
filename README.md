@@ -23,7 +23,7 @@ I undertook the project because it is an Assessment test to get a job as a front
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./Ehye-preview.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
