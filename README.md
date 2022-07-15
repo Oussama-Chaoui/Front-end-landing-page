@@ -35,5 +35,5 @@ Project is: _complete_
 
 
 ## Contact
-Created by [@Oussama Chaoui](https://github.com/Oussama-Chaoui) - feel free to contact me at [my email](oussamaqqqq@gmail.com) !
+Created by [@Oussama Chaoui](https://github.com/Oussama-Chaoui) - feel free to contact me at oussamaqqqq@gmail.com !
 
